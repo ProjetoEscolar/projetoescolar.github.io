@@ -1,0 +1,82 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
+
+:root {
+    --fonte-titulo: 'Hind Siliguri', sans-serif;
+    --font-texto: 'Roboto Mono', monospace;
+
+    --cor0:#EEF2FA;
+    --cor1:#D2DCF3;
+    --cor2: #3F69CA;
+    --cor3: #0F48BF;
+    --cor4: #0743BE;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header  {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    min-width: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+header h1 {
+    color: #ffff;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: var(--cor1);
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main img {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+body {
+    background-color: #6AAED9;
+    font-family: var(--font-texto);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+    font-size: 1em;
+}
+
+h1,h2{
+    font-family: var(--fonte-titulo);
+}
+
+h2 {
+    color: var(--cor2);
+    font-size: 1.3em;
+}
+
+footer {
+    background-color: var(--cor3);
+    color: #ffff;
+    text-align: center;
+    font-size: .8em;
+    padding: 5px;
+}
